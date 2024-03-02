@@ -65,7 +65,7 @@ $navSubmitStory.on("click", navSubmitClick);
 function navProfileClick(e) {
   console.debug("navProfileClick", e);
   hidePageComponents();
-  $navUserProfile.show();
+  $userProfile.show();
 }
 
 $navUserProfile.on("click", navProfileClick);
